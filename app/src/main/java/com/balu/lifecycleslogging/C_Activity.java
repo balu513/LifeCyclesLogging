@@ -27,7 +27,7 @@ public class C_Activity extends AppCompatActivity {
 
     public void replaceFragment(Fragment fragment, Bundle bundle) {
         fragment.setArguments(bundle);
-        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction().replace(R.id.framelayout, fragment);
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction().add(R.id.framelayout, fragment);
         fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }
