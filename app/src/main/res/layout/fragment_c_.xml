@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87DBE6"
+    tools:context=".fragment.C_Fragment">
+
+    <Button
+        android:id="@+id/btn_next_frag_d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="Launch Fragment D" />
+    <Button
+        android:id="@+id/btn_next_act_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:layout_below="@id/btn_next_frag_d"
+        android:text="Launch Activity B" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Fragment C"></TextView>
+
+
+</RelativeLayout>

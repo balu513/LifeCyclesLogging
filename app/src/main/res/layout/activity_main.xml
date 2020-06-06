@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Launch A Activity" />
+
+    <Button
+        android:id="@+id/btn_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_activity"
+        android:layout_margin="15dp"
+        android:text="Frag" />
+
+    <Button
+        android:id="@+id/btn_launch_dialogue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Dialogue"
+        android:layout_below="@id/btn_fragment"
+        android:layout_margin="15dp"></Button>
+
+    <TextView
+        android:text="Main Activity"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <Button
+        android:id="@+id/btn_viewpager_activity"
+        android:layout_width="match_parent"
+        android:text="launch ViewPagerActivity"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"></Button>
+
+
+</RelativeLayout>
